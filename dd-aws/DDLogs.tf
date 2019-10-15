@@ -4,7 +4,7 @@ resource "aws_iam_role" "DDLogs" {
   assume_role_policy = file("DDLogs-role.json")
 
   tags = {
-    Creator = "alex.fernandes"
+    Creator = "morgan.lupton"
   }
 }
 
