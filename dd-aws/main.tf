@@ -1,6 +1,6 @@
 provider "aws" {
   region                  = "us-west-1"
-  shared_credentials_file = "/Users/alex.fernandes/.aws/credentials"
+  shared_credentials_file = "/Users/morgan.lupton/.aws/credentials"
   profile                 = "default"
 }
 
