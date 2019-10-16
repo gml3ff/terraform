@@ -19,7 +19,7 @@ variable "cw_log_triggers" {
 
 variable "s3_log_triggers" {
   type = "list"
-  default = ["bucket1","bucket2"]
+  default = ["dd-test-bucket-1","dd-test-bucket-2"]
 }
 
 variable "xray_enabled" {
