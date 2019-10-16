@@ -3,7 +3,7 @@ resource "aws_kinesis_stream" "LogStreaming" {
   shard_count      = 1
   retention_period = 24
   tags = {
-    Creator = "alex.fernandes"
+    Creator = "morgan.lupton"
   }
 }
 
@@ -11,7 +11,7 @@ resource "aws_iam_role" "LogStreaming" {
   name               = "LogStreaming"
   assume_role_policy = file("LogStreaming-role.json")
   tags = {
-    Creator = "alex.fernandes"
+    Creator = "morgan.lupton"
   }
 }
 
